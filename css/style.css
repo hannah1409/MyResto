@@ -156,12 +156,12 @@ img{
 .star{
 	height: 13px;
 	width: 13px;
-	background-image: url('images/fullStar.png');
+	background-image: url('../images/fullStar.png');
 }
 .emptyStar{
 	height: 13px;
 	width: 13px;
-	background-image: url('images/emptyStar.png');
+	background-image: url('../images/emptyStar.png');
 }
 .featuredDishes .dishDescription{
 	margin-top: 20px;
