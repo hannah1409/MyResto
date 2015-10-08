@@ -21,7 +21,7 @@ $( document ).ready(function() {
 	  minSlides: 1,
 	  maxSlides: 4,
 	  slideWidth: 220,
-	  slideMargin: 100,
+	  slideMargin: 80,
 	});
 });
 // $( document ).ready(function() {
