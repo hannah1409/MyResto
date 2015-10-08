@@ -1,0 +1,235 @@
+@font-face{ 
+	font-family: 'Aleo';
+	src: url('fonts/aleo_regular_macroman/Aleo-Regular-webfont.eot');
+    src: url('fonts/aleo_regular_macroman/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aleo_regular_macroman/Aleo-Regular-webfont.woff') format('woff'),
+         url('fonts/aleo_regular_macroman/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('fonts/aleo_regular_macroman/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot');
+    src: url('fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aleo_bold_macroman/Aleo-Bold-webfont.woff') format('woff'),
+         url('fonts/aleo_bold_macroman/Aleo-Bold-webfont.ttf') format('truetype'),
+         url('fonts/aleo_bold_macroman/Aleo-Bold-webfont.svg#aleobold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.eot');
+    src: url('fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.woff') format('woff'),
+         url('fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.ttf') format('truetype'),
+         url('fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.svg#aleolightitalic') format('svg');
+    font-weight: lighter;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'Aleo';
+    src: url('fonts/aleo_light_macroman/Aleo-Light-webfont.eot');
+    src: url('fonts/aleo_light_macroman/Aleo-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aleo_light_macroman/Aleo-Light-webfont.woff') format('woff'),
+         url('fonts/aleo_light_macroman/Aleo-Light-webfont.ttf') format('truetype'),
+         url('fonts/aleo_light_macroman/Aleo-Light-webfont.svg#aleolight') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+body, html{
+	font-family: 'Aleo', Arial, sans-serif;
+	background-color:white;
+	padding: 0;
+	margin: 0;
+}
+img{
+	max-width: 100%;
+}
+
+.header{
+	height:108px;
+	padding-top:50px;
+}
+.header a{
+	color:black;
+	margin-right:25px;
+	font-size:14px;
+}
+.header img{
+		margin-top: -8px;
+}
+.billboard{
+	height:570px;
+	text-align:center;
+	background:url("../images/Billboard.png");
+	background-size: cover;
+	
+}
+.billboard img{
+	margin-top: 100px;
+}
+
+.theMenu img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+.theMenu li {
+	height: 120px;
+	list-style: none;
+}
+.theMenu .ingredients{
+	font-style:italic;
+	font-weight: lighter;
+	font-size:10px;
+	color:rgb(183,183,183);
+}
+.theMenu .dishName, .theMenu .price{
+	font-size:13px;
+	margin-top:50px;
+}
+.theMenu .line{
+	border-bottom:1px solid rgb(183,183,183);
+	margin-top:66px;
+}
+
+.theMenu button{
+	margin-top:70px;
+	background-color: white;
+	border: 1px solid rgb(59, 59, 59);
+	height:30px;
+	width:110px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+}
+.notVisible{
+	display:none;
+}
+
+.featuredDishes h1, .theGallery h1{
+	margin-top: 150px;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+.featuredDishes img{
+	width: 220px;
+}
+.featuredDishes .dishName{
+	font-weight: lighter;
+	float:left;
+	width: 120px;
+}
+.featuredDishes .price{
+	float: right;
+	width: 100px;
+	text-align: right;
+}
+
+.bxslider .rating {
+	display: block;
+	float: left;
+	height: 15px;
+	margin-bottom: 10px;
+	width: 100%;
+	margin-left: -40px;
+}
+
+.bxslider .rating li {
+	display: block;
+	float: left;
+	margin-right: 2px;
+}
+
+.star{
+	height: 13px;
+	width: 13px;
+	background-image: url('images/fullStar.png');
+}
+.emptyStar{
+	height: 13px;
+	width: 13px;
+	background-image: url('images/emptyStar.png');
+}
+.featuredDishes .dishDescription{
+	margin-top: 20px;
+}
+.featuredDishes .dishName{
+	margin-bottom: 10px;
+}
+.bx-wrapper .bx-pager{
+	position: absolute;
+    top: -120px;
+    right: 0px;
+    width: auto;
+}
+.bx-wrapper .bx-viewport{
+     -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+     box-shadow: none; 
+     border: none; 
+}
+
+.theGallery .row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.theGallery .secondImage{
+	overflow: hidden;
+	height:217px;
+
+}
+
+.footer{
+	margin-top: 150px;
+	background-color: rgb(59, 59, 59);
+	color: white;
+	padding-top: 80px;
+	line-height: 2em;
+	display: block;
+}
+.footer ul{
+	padding-left: 0;
+}
+.footer ul li{
+	list-style: none;
+
+}
+
+.footer ul li a{
+	color: white;
+}
+.footer span{
+	font-weight: bold;
+}
+.footer img{
+	margin-bottom: 10px;
+}
+.footer .col-md-3{
+	margin-bottom: 30px;
+}
+@media (max-width:768px){
+	.footer{
+		text-align: center;
+	}
+
+}
+
+
