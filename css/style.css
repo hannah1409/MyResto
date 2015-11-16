@@ -114,9 +114,10 @@ img{
 	margin-right: auto;
 	outline: none;
 }
-.theMenu ul{
-	margin-left: -60px;
+.theMenu ul.row{
+	padding: 0;
 }
+
 .notVisible{
 	display:none;
 }
@@ -236,6 +237,7 @@ img{
 	.theMenu .line{
 		display: none;
 	}
+
 }
 
 
